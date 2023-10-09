@@ -16,6 +16,8 @@
 		5D6CABE126522523009A8F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CABE026522523009A8F8D /* Assets.xcassets */; };
 		5D6CABEC26522523009A8F8D /* Car_RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CABEB26522523009A8F8D /* Car_RunTests.swift */; };
 		5D6CABF726522523009A8F8D /* Car_RunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CABF626522523009A8F8D /* Car_RunUITests.swift */; };
+		5D6CAC082652355C009A8F8D /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CAC062652355C009A8F8D /* enemy.png */; };
+		5D6CAC0B26523D52009A8F8D /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CAC0A26523D52009A8F8D /* player.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5D6CABF226522523009A8F8D /* Car RunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car RunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6CABF626522523009A8F8D /* Car_RunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_RunUITests.swift; sourceTree = "<group>"; };
 		5D6CABF826522523009A8F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6CAC062652355C009A8F8D /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		5D6CAC0A26523D52009A8F8D /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = ../../../../../../../Downloads/player.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		5D6CABD226522522009A8F8D /* Car Run */ = {
 			isa = PBXGroup;
 			children = (
+				5D6CAC062652355C009A8F8D /* enemy.png */,
+				5D6CAC0A26523D52009A8F8D /* player.png */,
 				5D6CABD326522522009A8F8D /* AppDelegate.swift */,
 				5D6CABD526522522009A8F8D /* GameScene.sks */,
 				5D6CABD726522522009A8F8D /* Actions.sks */,
@@ -234,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6CAC0B26523D52009A8F8D /* player.png in Resources */,
 				5D6CABDF26522522009A8F8D /* Main.storyboard in Resources */,
 				5D6CABD626522522009A8F8D /* GameScene.sks in Resources */,
+				5D6CAC082652355C009A8F8D /* enemy.png in Resources */,
 				5D6CABE126522523009A8F8D /* Assets.xcassets in Resources */,
 				5D6CABD826522522009A8F8D /* Actions.sks in Resources */,
 			);
